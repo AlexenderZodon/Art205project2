@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contactme{
+    background: url(../media/alexander.jpeg);
+    background-image: url(../media/alexander.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300%;
+   }
+
+section.contactme>h3:nth-last-of-type(2){
+    padding-left: 15%;
+}
+
+
+section.contactme> h3{
+    font: bold 3em arial;
+    font-size: 60px;
+    padding-left: 8%;
+    color: white;
+
+}
+.admissionform{  
+    border-radius: 900px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(163, 19, 19);
+ border-radius: 990px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#divofsection{
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+height: 100%;
+justify-content: center;
+justify-content: space-between;
+margin: 12px;
+padding: 12px;
+}
+#divofsection{
+    background-color: rgb(23, 84, 170);
+}
+#inputme{
+    width: 850px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.paragraph{
+    font-size: 50px;
+    font-family: Franklin Gothic Medium;
+    text-align: center;
+    justify-content: center;
+    color: greenyellow;
+
+
+}
+ .paragraph{
+    background: url(../media/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ footer{
+    width: 50px;
+    height: 50px;
+    color: blue;
+    font-family: verdana;
+    text-align: center;
+    color: brown;
+    text-align: center;
+    justify-content: center;
+
+ }

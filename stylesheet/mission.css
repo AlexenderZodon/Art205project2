@@ -1,0 +1,215 @@
+.mission{
+    font-family: Georgia;
+    font-size: 40px;
+}
+
+.wrapper{
+height: 100vh;
+width: 100%;
+display: grid;
+grid-template-rows: auto 1fr auto;
+}
+header{
+display: grid;
+grid-template-columns: 50% 1fr;
+align-items: center;
+background-color: blue;
+color: white;
+padding: 10px 20px;
+}
+header> h1{
+flex: 1;
+}
+nav> ul{
+display: flex;
+justify-content: space-between;
+font-weight: bold;
+}
+nav ul li a{
+color: white;  
+}
+*{
+margin: 0;
+padding: 0;
+}
+
+
+#coming >section{
+text-align: center;
+padding-bottom: 12px;
+font-size: 70px;
+font-family: Arial;
+color: white;
+background-color: aqua;
+background: url(../media/boy.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.shadow{
+align-items: center;
+justify-content: center;
+font-size: 89px;
+text-align: center;
+align-items: center;
+}
+.shadow{
+font: bold 72px times;
+animation: swing in 2s ease-in-out infinite alternate;
+}  
+
+.missionblue{
+width: 30%;
+float: right;
+border: 2px;
+background-color: aqua;
+padding: 20px;
+margin: 10px;
+}
+.missionbluecrest{
+width: 30%;
+float: right;
+padding: 20px;
+border: 2px;
+background-color: turquoise;
+margin: 10px;
+}
+#bluecrestmission{
+padding: 10px;
+float: left;  
+width: 30%;
+margin: 10px;
+padding: 20px;
+flex-direction: row;
+background-color: aquamarine;
+}
+.missionbluecrest h1{
+text-align: justify;
+}
+footer{
+text-align: center;
+color: white;
+background-color: blue;
+padding: 10px;
+}
+footer > div.container{
+display: grid;
+grid-template-rows: auto 1fr;
+}
+section#footerofbluecrest{
+display: flex;
+font-size: 20px;
+}
+section#footerofbluecrest > div {
+flex: 1;
+display: flex;
+justify-content: flex-end;
+gap: 50px;
+padding-right: 50px;
+}
+
+section#footerbluecrest > div a {
+color: white;
+}
+
+
+div.social{
+width: 200px;
+height: 40px;
+display: grid;
+grid-template-columns: repeat(4, 40px);
+gap: 20px;
+}
+div.social a > img {
+height: 100%;
+width: 40px;
+border: 2px solid #fff;
+border-radius: 20px;
+background-color: white;
+}
+#link{
+color: white;
+}
+#bluecrest{
+text-align: center;
+flex-wrap: wrap;
+font-size: 18px;
+}
+
+div> #Monrovia{
+text-align: center;
+justify-content: center;
+}
+#divhead h5{
+text-align: center;
+justify-content: center;
+
+}
+
+footer > div.container{
+display: grid;
+grid-template-rows: auto 1fr;
+}
+section#footerofbluecrest{
+display: flex;
+font-size: 20px;
+}
+section#footerofbluecrest > div {
+flex: 1;
+display: flex;
+justify-content: flex-end;
+gap: 50px;
+padding-right: 50px;
+}
+
+section#footerbluecrest > div a {
+color: white;
+}
+
+
+div.social{
+width: 200px;
+height: 40px;
+display: grid;
+grid-template-columns: repeat(4, 40px);
+gap: 20px;
+}
+div.social a > img {
+height: 100%;
+width: 40px;
+border: 2px solid #fff;
+border-radius: 20px;
+background-color: white;
+}
+#link{
+color: white;
+}
+#bluecrest{
+text-align: center;
+flex-wrap: wrap;
+font-size: 18px;
+}
+
+div> #Monrovia{
+text-align: center;
+justify-content: center;
+}
+#divhead h5{
+text-align: center;
+justify-content: center;
+
+}
+
+div.missionblue,
+div.missionbluecrest,
+div#bluecrestmission {
+    width: 96%;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+
+main.collegeDesign {
+    background: rgb(125, 125, 128);
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    place-items: center;
+    gap: 50px;
+    padding: 100px 0;
+}
+
+div.college {
+    background: rgb(0, 119, 255);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 15% 0 15% 0 ;
+}
+
+div.college > h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+div.college > p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+div.college > a {
+    width: 36%;
+    font-size: 18px;
+    transition: 0.5s all;
+    margin:  0;
+}
+
+div.college > a:hover {
+    background: red;
+    text-shadow: -5px 4px 2px #000;
+    font-weight: bold;
+}

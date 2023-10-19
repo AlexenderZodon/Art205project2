@@ -1,0 +1,151 @@
+/* UNIVERSAL STYLING */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+}
+header> h1{
+    flex: 1;
+}
+nav> ul{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+nav ul li a{
+ color: white;  
+}
+
+main{
+    background: url(../media/blue.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+main a{
+    color: white;
+    font-size: 35px;
+    font-family: times;
+    border-radius: 30px;
+    background-color: blue;
+    padding: 10px 20px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+main p{
+    font-size: 30px;
+}
+main >h2{
+    font-size: 50px;
+    text-decoration: underlinem;
+
+}
+h2::first-letter{
+    font-size: 90px;
+    color: blue;
+}
+
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+div.myphoto{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+}
+div.myphoto > img {
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+
+footer > div.container{
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+section#footerofbluecrest{
+    display: flex;
+    font-size: 20px;
+}
+section#footerofbluecrest > div {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding-right: 50px;
+}
+
+section#footerbluecrest > div a {
+    color: white;
+}
+
+
+div.social{
+    width: 200px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 40px);
+    gap: 20px;
+}
+div.social a > img {
+    height: 100%;
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: white;
+}
+#link{
+    color: white;
+}
+#bluecrest{
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+div> #Monrovia{
+    text-align: center;
+    justify-content: center;
+}
+#divhead h5{
+    text-align: center;
+    justify-content: center;
+    
+}
